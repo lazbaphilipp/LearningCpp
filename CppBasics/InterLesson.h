@@ -11,6 +11,8 @@
 #include <cstdint>
 #include <ctime>
 #include <string>
+#include <random>
+#include <chrono>
 
 
 namespace IL { // InterLesson
@@ -18,6 +20,8 @@ namespace IL { // InterLesson
 	void cls();
 
 	int getIntNumber(int& num);
+
+	int getRandomNum(int min, int max);
 }
 
 #endif

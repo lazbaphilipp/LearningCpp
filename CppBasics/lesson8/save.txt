@@ -1,0 +1,52 @@
+     1   2   3   
+   ------------- 
+1  | X | 0 | X | 
+   ------------- 
+2  | X | 0 | 0 | 
+   ------------- 
+3  | 0 | X | X | 
+   ------------- 
+Player sign: 0
+AI sign: X
+Pobediela drushba!!!
+     1   2   3   
+   ------------- 
+1  | X | X | 0 | 
+   ------------- 
+2  | 0 | 0 | X | 
+   ------------- 
+3  | X | 0 | X | 
+   ------------- 
+Player sign: 0
+AI sign: X
+Pobediela drushba!!!
+     1   2   3   
+   ------------- 
+1  | X | 0 | X | 
+   ------------- 
+2  | _ | X | 0 | 
+   ------------- 
+3  | X | _ | 0 | 
+   ------------- 
+Player sign: X
+AI sign: 0
+
+Player wins: 1
+AI wins: 0
+Draws: 1
+Player won! Congrats to the great Player!
+     1   2   3   
+   ------------- 
+1  | 0 | _ | X | 
+   ------------- 
+2  | _ | 0 | X | 
+   ------------- 
+3  | X | 0 | X | 
+   ------------- 
+Player sign: 0
+AI sign: X
+
+Player wins: 1
+AI wins: 1
+Draws: 1
+AI won! Congrats to the great AI!

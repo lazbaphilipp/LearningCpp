@@ -6,6 +6,10 @@ namespace IL { // InterLesson
 	* @brief Enters "Press any key to continue" in console
 	*/
 	void wait(){
+		std::cout << std::endl;
+		std::cout << std::endl;
+		std::cout << std::endl;
+		std::cout << std::endl;
     #if defined(LINUX) || defined(__linux__)
         system("read");
     #else 
@@ -21,7 +25,7 @@ namespace IL { // InterLesson
 	* 
 	*/
 	void cls(){
-    #if defined(LINUX) || defined(__linux__)
+    #if defined(LINUX) || defined(__linux__) || defined(VSCode)
         printf("\033c");
     #else 
         #if defined(_WIN64) || defined(_WIN32)
@@ -53,4 +57,14 @@ namespace IL { // InterLesson
 			}
 		}
 	}
+
+
+	int getRandomNum(int min, int max) {
+		const static auto seed = std::chrono::system_clock::now().time_since_epoch().count();
+		static std::mt19937_64 generator(seed);
+		std::uniform_int_distribution<int> dis(min,max);
+		return dis(generator);
+	}
+
+
 }
